@@ -11,7 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS_DIR = ROOT / "assets" / "images"
 HEADSHOT_URL = (
-    "https://diversity.utexas.edu/ige/wp-content/uploads/sites/50/2020/11/Silvia-Protopapa.jpg"
+    "https://psg.gsfc.nasa.gov/images/help/photosilvia.jpg"
 )
 HEADSHOT_PATH = ASSETS_DIR / "silvia-protopapa-headshot.jpg"
 
