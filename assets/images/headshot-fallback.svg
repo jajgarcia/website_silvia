@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title desc">
+  <title id="title">Silhouette placeholder</title>
+  <desc id="desc">Stylized silhouette of a person for fallback display.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#1f5a7a" />
+      <stop offset="100%" stop-color="#153a56" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" fill="url(#bg)" rx="24" />
+  <circle cx="100" cy="80" r="44" fill="#f0f4f8" opacity="0.9" />
+  <path d="M36 188c8-40 38-68 64-68s56 28 64 68" fill="#f0f4f8" opacity="0.9" />
+</svg>
