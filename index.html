@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Silvia Protopapa | Planetary Astronomer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <img class="headshot" src="https://www.boulder.swri.edu/~protopapa/images/Silvia_Protopapa.jpg" alt="Dr. Silvia Protopapa headshot">
+      <div>
+        <h1>Dr. Silvia Protopapa</h1>
+        <p class="subtitle">Planetary Astronomer · South West Research Institute</p>
+        <div class="hero-links">
+          <a class="button" href="https://www.boulder.swri.edu/~protopapa/docs/SilviaProtopapa_CV.pdf" target="_blank" rel="noopener">Curriculum Vitae</a>
+          <a class="button ghost" href="https://scholar.google.com/citations?user=_IwY0_IAAAAJ" target="_blank" rel="noopener">Publication Record</a>
+          <a class="button ghost" href="#projects">Projects</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="about" id="about">
+      <div class="container">
+        <h2>About</h2>
+        <p>
+          Dr. Silvia Protopapa is a planetary astronomer at the South West Research Institute (SwRI). Her research focuses on
+          understanding the physical and chemical properties of icy bodies in the outer Solar System, with a particular emphasis on
+          data from the New Horizons mission to Pluto and beyond. Silvia combines laboratory spectroscopy, remote observations,
+          and spacecraft data analysis to uncover the evolutionary history of Kuiper Belt objects.
+        </p>
+      </div>
+    </section>
+
+    <section class="featured" id="projects">
+      <div class="container">
+        <h2>Featured Projects</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <h3>New Horizons Surface Composition</h3>
+            <p>
+              Mapping volatile ices across Pluto and Charon using Ralph/LEISA spectral observations to trace seasonal cycles and
+              geological activity.
+            </p>
+          </article>
+          <article class="project-card">
+            <h3>Kuiper Belt Object Spectroscopy</h3>
+            <p>
+              Coordinated laboratory and telescopic campaigns to identify spectral fingerprints of complex organics on small icy worlds.
+            </p>
+          </article>
+          <article class="project-card">
+            <h3>Next-Generation Mission Concepts</h3>
+            <p>
+              Developing instrument concepts for future flyby and orbiter missions targeting dwarf planets and primordial Solar System bodies.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container">
+        <h2>Explore Dr. Protopapa&rsquo;s Work</h2>
+        <p>Access the latest publications, mission involvement, and collaborative opportunities.</p>
+        <div class="cta-links">
+          <a class="button" href="https://www.boulder.swri.edu/~protopapa/docs/SilviaProtopapa_CV.pdf" target="_blank" rel="noopener">Download CV</a>
+          <a class="button ghost" href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Protopapa%2C%20S.%22" target="_blank" rel="noopener">View ADS Publications</a>
+          <a class="button ghost" href="mailto:protopapa@boulder.swri.edu">Contact</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="year"></span> Dr. Silvia Protopapa. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
