@@ -37,9 +37,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image:
-    linear-gradient(rgba(10, 28, 43, 0.8), rgba(10, 28, 43, 0.8)),
-    url('https://upload.wikimedia.org/wikipedia/commons/2/2a/NASA_New_Horizons_Pluto_image.png');
+  background-image: url('https://www.nasa.gov/sites/default/files/thumbnails/image/nh-pluto-image-7-14-15.png');
   background-size: cover;
   background-position: center;
   color: var(--light);
@@ -49,7 +47,7 @@ img {
 .overlay {
   position: absolute;
   inset: 0;
-  background: rgba(10, 28, 43, 0.45);
+  background: rgba(10, 28, 43, 0.68);
 }
 
 .hero-content {
